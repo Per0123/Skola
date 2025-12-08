@@ -1,0 +1,65 @@
+Primjena
+1.
+Sekvencijalna struktura:
+To je najjednostavniji tip, gdje se radnje izvode jedna za drugom, redom.
+
+Primjer pseudokoda:
+
+Unesi broj a
+Unesi broj b
+c = a + b
+Ispisi c
+
+
+Grananje (uvjetna struktura):
+Ovdje se algoritam odlučuje između dvije opcije, ovisno o uvjetu.
+
+Primjer pseudokoda:
+
+Unesi broj
+Ako broj > 0
+   Ispisi "Pozitivan broj"
+Inače
+   Ispisi "Negativan broj"
+
+
+Petlja (iteracija):
+Petlja ponavlja određene radnje dokle god neki uvjet nije zadovoljen.
+
+Primjer pseudokoda:
+
+brojac = 1
+Dok brojac <= 5
+   Ispisi brojac
+   brojac = brojac + 1
+
+
+2.
+
+Varijable moraju odgovarati problemu:
+Varijable trebaju predstavljati stvarne stvari ili brojeve u problemu. Na primjer, ako računamo prosječnu temperaturu, varijable mogu biti temperatura i broj mjerenja.
+
+Nazivi varijabli trebaju biti jasni:
+Dajte varijablama imena koja jasno govore što predstavljaju. Umjesto x, bolje je koristiti broj_klijenata ili suma_troškova.
+
+Inicijalizirajte varijable:
+Varijable moraju imati početne vrijednosti prije nego što ih koristimo. Na primjer, prije nego što zbrajamo brojeve, suma mora biti 0.
+
+
+3.
+
+Ispitivanje algoritma znači provjeru da li algoritam radi kako treba. To uključuje:
+
+Provjeru točnosti: Je li algoritam dao ispravan rezultat?
+Analizu brzine: Koliko vremena algoritam treba da završi zadatak?
+Provjeru memorije: Koliko memorije algoritam koristi?
+
+Test-podaci su podaci koje koristimo za testiranje algoritma. Oni trebaju biti:
+Obični podaci: Normalni podaci za testiranje.
+Ekstremni podaci: Testiramo algoritam s velikim ili vrlo malim brojevima.
+Pogrešni podaci: Provjeravamo kako algoritam reagira na pogrešne podatke.
+
+Test-podaci trebaju biti:
+Realni i relevantni za problem.
+Uključivati ekstremne slučajeve i rubne uvjete.
+Različitih veličina kako bismo testirali kako algoritam djeluje za male i velike podatke.
