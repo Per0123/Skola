@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LV03_LV02_1a"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 09:22:45 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwOToxODo1NSAiOzIyMDY="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwOToyMjo0NSAiOzE7MjMwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, hipotenuza, povrsina" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="hipotenuza" expression="Sqrt(a*a+b*b)"/>
+            <assign variable="povrsina" expression="0.5*a*b"/>
+            <output expression="&quot;&quot; &amp; hipotenuza" newline="True"/>
+            <output expression="&quot;&quot; &amp; povrsina" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

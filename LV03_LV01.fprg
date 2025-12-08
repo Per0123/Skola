@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LV03_LV01"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 09:18:52 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwOTowNDo0MCAiOzIxOTU="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwOToxODo1MiAiOzI7MjMxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="km, p, g, pg, t" type="Real" array="False" size=""/>
+            <output expression="&quot;Unesite broj prije&#273;enih kilometara: &quot;" newline="True"/>
+            <input variable="km"/>
+            <output expression="&quot;Unesite potro&#353;nju vozila (litara na 100 km): &quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Unesite cijenu goriva po litri (u eurima):  &quot;" newline="True"/>
+            <input variable="g"/>
+            <assign variable="pg" expression="km * p / 100"/>
+            <assign variable="t" expression="pg * g"/>
+            <output expression="&quot;Potroseno goriva: &quot; &amp; pg" newline="False"/>
+            <output expression="&quot; litara&quot;" newline="True"/>
+            <output expression="&quot;Ukupni tro&#353;ak goriva za putovanje: &quot; &amp; t" newline="False"/>
+            <output expression="&quot; eura&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

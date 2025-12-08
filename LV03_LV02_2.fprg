@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LV03_LV02_2"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 10:11:15 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwOToyNToyNSAiOzIyMDE="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIxMDoxMToxNSAiOzE7MjI5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="u1, u2, u3, u4, u5, u6, u7, z, j, o" type="Real" array="False" size=""/>
+            <input variable="u1"/>
+            <input variable="u2"/>
+            <input variable="u3"/>
+            <input variable="u4"/>
+            <input variable="u5"/>
+            <input variable="u6"/>
+            <input variable="u7"/>
+            <assign variable="z" expression="(u1 % 10) + (u2 % 10) + (u3 % 10) + (u4 % 10) + (u5 % 10) + (u6 % 10)"/>
+            <assign variable="j" expression="(u1 % 10) * 100000 + (u2 % 10) * 10000 + (u3 % 10) * 1000 + (u4 % 10) * 100 + (u5 % 10) * 10 + (u6 % 10)"/>
+            <assign variable="o" expression="j % 101"/>
+            <output expression="&quot;&quot; &amp; z" newline="True"/>
+            <output expression="&quot;&quot; &amp; o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

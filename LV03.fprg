@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="LV03"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 08:48:16 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwODozMzowOCAiOzIyMDA="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIxMzsyMDI1LTEwLTEzOyIwODo0ODoxNiAiOzE7MjMxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, opseg, povrsina" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="opseg" expression="2*a+2*b"/>
+            <assign variable="povrsina" expression="a*b"/>
+            <output expression="&quot;Opseg pravokutnika iznosi:&quot; &amp; opseg" newline="True"/>
+            <output expression="&quot;Povrsina pravokutnika iznosi:&quot; &amp; povrsina" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
