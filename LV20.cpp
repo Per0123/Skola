@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool iPS(const string& text) {
+bool zad_a(const string& text) {
     string filtered = "";
     for (char c : text) {
         if ((c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A')) filtered += tolower(c);
@@ -20,15 +20,7 @@ bool iPS(const string& text) {
     return true;
 }
 
-int zad_a() {
-    string str1; cin >> str1;
-
-    cout << str1 << " -> " << iPS(str1);
-
-    return 0;
-}
-
-bool isto(const string& s) {
+bool zad_b(const string& s) {
     stack<char> st;
 
     for (char c : s) {
@@ -52,23 +44,16 @@ bool isto(const string& s) {
     return st.empty();
 }
 
-int zad_b() {
-    string iz; cin >> iz;
-
-    cout << isto(iz);
-
-    return 0;
-}
-
 int main() {
     int br; cin >> br;
+    string str; cin >> str;
 
     switch (br) {
     case 1:
-        zad_a();
+        zad_a(str);
         break;
     case 2:
-        zad_b();
+        zad_b(str);
         break;
     }
 
